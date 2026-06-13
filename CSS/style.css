@@ -3,6 +3,7 @@
     :root {
       --font-display: 'Exo 2', 'Arial', sans-serif;
       --font-body:    'Barlow', 'Helvetica Neue', sans-serif;
+      --font-lore:    'Cinzel', 'Georgia', serif;
 
       --text-xs:   clamp(0.75rem,  0.7rem  + 0.25vw, 0.875rem);
       --text-sm:   clamp(0.875rem, 0.8rem  + 0.35vw, 1rem);
@@ -61,6 +62,12 @@
       /* Nature Gold â€” Aurelius */
       --color-nature:          #c8a84b;
       --color-nature-glow:     rgba(200, 168, 75, 0.2);
+
+      /* Lore Gold — index/lore hub accent */
+      --color-gold:            #c9a96e;
+      --color-gold-dim:        #a07840;
+      --color-gold-glow:       rgba(201, 169, 110, 0.18);
+      --color-gold-border:     rgba(201, 169, 110, 0.28);
 
       --shadow-sm:  0 1px  3px rgba(0,0,0,0.4);
       --shadow-md:  0 4px 12px rgba(0,0,0,0.5);
@@ -220,11 +227,11 @@
       background: var(--color-primary); opacity: 0.5;
     }
     .hero-title {
-      font-family: var(--font-display);
+      font-family: var(--font-lore);
       font-size: var(--text-hero);
-      font-weight: 800;
+      font-weight: 700;
       color: var(--color-text);
-      letter-spacing: -0.01em;
+      letter-spacing: 0.02em;
       line-height: 1.05;
       margin-bottom: var(--space-4);
     }
@@ -324,7 +331,7 @@
       user-select: none; pointer-events: none;
     }
     .section-title {
-      font-family: var(--font-display); font-size: var(--text-2xl);
+      font-family: var(--font-lore); font-size: var(--text-2xl);
       font-weight: 800; color: var(--color-text); line-height: 1.1;
     }
     .section-intro {
