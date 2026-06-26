@@ -8,17 +8,12 @@
     gtag('config', 'AW-18081437614');
   </script>
 
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Lore — Chronicles of Eyuforyia | Quetiemals: The Fight For Eyuforyia</title>
   <meta name="description" content="Chronicles of Eyuforyia — the story of a world torn open, corrupted, and fighting to reclaim its soul." />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Exo+2:ital,wght@0,300..800;1,300..800&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-
-  <script src="https://cdn.tailwindcss.com/3.4.1/tailwind.min.js"></script>
+<script src="https://cdn.tailwindcss.com/3.4.1/tailwind.min.js"></script>
+  <link rel="stylesheet" href="../CSS/theme.css">
   <link rel="stylesheet" href="../CSS/style.css">
 
   <style>
@@ -29,9 +24,9 @@
     *, *::before, *::after { box-sizing: border-box; }
 
     body {
-      background-color: #09090f;
-      color: #d4cfc5;
-      font-family: 'EB Garamond', Georgia, serif;
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      font-family: var(--font-body);
       margin: 0;
     }
 
@@ -91,7 +86,7 @@
 
     .hero-chapter-tag {
       display: inline-block;
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: 0.7rem;
       letter-spacing: 0.4em;
       text-transform: uppercase;
@@ -100,11 +95,11 @@
       padding: 0.4rem 1.2rem;
       border-radius: 2px;
       margin-bottom: 2rem;
-      background: rgba(160,120,64,0.06);
+      background: var(--color-primary-glow);
     }
 
     .lore-hero h1 {
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: clamp(2.8rem, 7vw, 5.5rem);
       font-weight: 900;
       line-height: 1.1;
@@ -176,7 +171,7 @@
     }
 
     .hero-scroll-cue span {
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: 0.6rem;
       letter-spacing: 0.3em;
       text-transform: uppercase;
@@ -214,7 +209,7 @@
       display: inline-flex;
       align-items: center;
       gap: 0.75rem;
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: 0.68rem;
       letter-spacing: 0.35em;
       text-transform: uppercase;
@@ -232,7 +227,7 @@
     }
 
     .chapter-heading {
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: clamp(1.6rem, 4vw, 2.8rem);
       font-weight: 700;
       color: #f0ece0;
@@ -242,7 +237,7 @@
 
     .chapter-heading em {
       font-style: normal;
-      color: #c9a96e;
+      color: var(--color-accent);
     }
 
     .chapter-intro {
@@ -314,7 +309,7 @@
     }
 
     .chapter-img-caption {
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: 0.65rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
@@ -345,7 +340,7 @@
     }
 
     .pull-quote cite {
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: 0.68rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
@@ -378,16 +373,16 @@
     }
 
     .stat-value {
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: 2.4rem;
       font-weight: 700;
-      color: #c9a96e;
+      color: var(--color-accent);
       line-height: 1;
       margin-bottom: 0.5rem;
     }
 
     .stat-label {
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: 0.6rem;
       letter-spacing: 0.25em;
       text-transform: uppercase;
@@ -418,7 +413,7 @@
     }
 
     .lore-card-tag {
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: 0.6rem;
       letter-spacing: 0.3em;
       text-transform: uppercase;
@@ -428,7 +423,7 @@
     }
 
     .lore-card-title {
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: 1rem;
       font-weight: 600;
       color: #f0ece0;
@@ -454,7 +449,7 @@
       background: rgba(255, 60, 60, 0.08);
       border: 1px solid rgba(255, 60, 60, 0.25);
       color: #ff6060;
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: 0.65rem;
       letter-spacing: 0.25em;
       text-transform: uppercase;
@@ -530,7 +525,7 @@
     }
 
     .lore-cta-section h2 {
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: clamp(1.8rem, 4vw, 3rem);
       font-weight: 700;
       color: #f0ece0;
@@ -555,7 +550,7 @@
       gap: 10px;
       background: linear-gradient(135deg, #8a5a22, #c9a96e);
       color: #09090f;
-      font-family: 'Cinzel', serif;
+      font-family: var(--font-display);
       font-size: 0.8rem;
       font-weight: 700;
       letter-spacing: 0.2em;
@@ -588,8 +583,9 @@
     .reveal-delay-3 { transition-delay: 0.45s; }
 
   </style>
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2168487052215648" crossorigin="anonymous"></script>
+<link rel="canonical" href="https://eyuforyia.com/HTML/story.html">
+  <meta name="google-adsense-account" content="ca-pub-7932735753046865">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7932735753046865" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -602,14 +598,17 @@
       </svg>
       QUETIEMALS
     </a>
-    <ul class="nav-links" id="nav-links">
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="chapters.html">Chapters</a></li>
-      <li><a href="characters.html">Guardians</a></li>
-      <li><a href="bosses.html">Threats</a></li>
-      <li><a href="locations.html">World</a></li>
-      <li><a href="playtest.html">Beta Access</a></li>
-    </ul>
+            <ul class="nav-links" id="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="story.html" class="active">Story</a></li>
+            <li><a href="story-reader.html">Full Story</a></li>
+            <li><a href="chapters.html">Chapters</a></li>
+            <li><a href="characters.html">Guardians</a></li>
+            <li><a href="bosses.html">Threats</a></li>
+            <li><a href="locations.html">World</a></li>
+            <li><a href="playtest.html">Beta Access</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
     <button class="nav-menu-btn" id="menu-btn" aria-label="Toggle navigation" aria-expanded="false">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path id="menu-icon" d="M3 12h18M3 6h18M3 18h18"/>
@@ -958,5 +957,8 @@
 
     document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
   </script>
+    <div style="overflow:hidden;flex:1;">
+    </div>
+</div>
 </body>
 </html>

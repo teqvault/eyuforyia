@@ -1,8 +1,8 @@
 
     /* â”€â”€â”€ TOKENS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     :root {
-      --font-display: 'Exo 2', 'Arial', sans-serif;
-      --font-body:    'Barlow', 'Helvetica Neue', sans-serif;
+      /* --font-display: overridden by theme.css */
+      /* --font-body: overridden by theme.css */
       --font-lore:    'Cinzel', 'Georgia', serif;
 
       --text-xs:   clamp(0.75rem,  0.7rem  + 0.25vw, 0.875rem);
